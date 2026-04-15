@@ -1,0 +1,45 @@
+# Data ingestion
+yfinance>=0.2.31
+alpha-vantage>=2.3.1
+fredapi>=0.5.1
+sec-edgar-downloader>=5.0.6
+requests>=2.31.0
+feedparser>=6.0.0
+beautifulsoup4>=4.12.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+# ML - Phase 1 (Classical)
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+joblib>=1.3.0
+
+# ML - Phase 2 (Deep Learning) - optional, install separately if needed
+# torch>=2.1.0
+
+# Broker
+alpaca-py>=0.13.0
+
+# API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+websockets>=12.0
+pydantic>=2.5.0
+
+# Dashboard
+streamlit>=1.28.0
+plotly>=5.18.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+pytz>=2023.3
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
